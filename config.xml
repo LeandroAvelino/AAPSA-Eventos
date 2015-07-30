@@ -71,7 +71,20 @@
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
   <platform name="android">
-    <allow-intent href="market:*"/>
+	<preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="3000" />
+	<splash density="land-hdpi" src="res/screen/android/drawable-land-hdpi.png" />
+	<splash density="land-ldpi" src="res/screen/android/drawable-land-ldpi.png" />
+	<splash density="land-mdpi" src="res/screen/android/drawable-land-mdpi.png" />
+	<splash density="land-xhdpi" src="res/screen/android/drawable-land-xhdpi.png" />
+	<splash density="port-hdpi" src="res/screen/android/drawable-port-hdpi.png" />
+	<splash density="port-ldpi" src="res/screen/android/drawable-port-ldpi.png" />
+	<splash density="port-mdpi" src="res/screen/android/drawable-port-mdpi.png" />
+	<splash density="port-xhdpi" src="res/screen/android/drawable-port-xhdpi.png" />
+	<icon density="ldpi" src="res/icon/android/drawable-ldpi.png" />
+    <icon density="mdpi" src="res/icon/android/drawable-mdpi.png" />
+    <icon density="hdpi" src="res/icon/android/drawable-hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/drawable-xhdpi.png" />
   </platform>
   <platform name="ios">
     <allow-intent href="itms:*"/>

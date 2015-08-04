@@ -7,6 +7,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="../css/style.css"> <!-- Resource style -->
 	<script src="../js/modernizr.js"></script> <!-- Modernizr -->
@@ -21,16 +22,13 @@
 	<header>
         <span class="menu-anchor"></span>       
 		<h1 onclick="javascript: mostra_menu();" >Agenda do Evento</h1>
-        <a href="../descr-evento.html" data-rel="back" class="ui-btn-right ui-btn ui-icon-info ui-btn-icon-notext ui-shadow ui-corner-all ui-nodisc-icon"  data-role="button" role="button">Back</a>
+        <a href="../patrocinadores-evento.html" data-rel="back" class="ui-btn-right ui-btn ui-icon-info ui-btn-icon-notext ui-shadow ui-corner-all ui-nodisc-icon"  data-role="button" role="button">Back</a>
 	</header>
     <menu>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="../patrocinadores-evento.html">Patrocinadores</a></li>
-        <li><a href="../aapsa-contato.html">Contato</a></li>
-        <li><a href="../comoChegar.html">Como chegar</a></li>
+        <li><a href="../aapsa-apresentacao.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+        <li><a href="../patrocinadores-evento.html"><i class="fa fa-users"></i>&nbsp;Patrocinadores</a></li>
+        <li><a href="../Palestras/contato.html"><i class="fa fa-bookmark"></i>&nbsp;Contato</a></li>
     </ul>
     </menu>
 	<section id="cd-timeline" class="cd-container">
@@ -42,7 +40,6 @@
 			<div class="cd-timeline-content">
 				<h2>08:00 às 08:30</h2>
 				<p>Credenciamento dos participantes.</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -78,8 +75,16 @@
 			<div class="cd-timeline-content">
 				<h2>09:00 às 09:40</h2>
 				<p>PALESTRA – "A Conselheira de Administração no Brasil"</p>
-				<a href="../Palestrantes/palestrante-anna.html" class="cd-read-more">Visualizar</a>
+				<a href="../Palestras/palestra-900940.html" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">			
+			<div id="Div1" class="cd-timeline-content aberturas">
+				<h2>Painel de Debates</h2>
+                <a href="../Palestras/palestra-painelDebates.html" class="cd-read-more">Visualizar</a>
+				<span class="cd-date">05 Ago</span>				
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
@@ -91,7 +96,7 @@
 			<div class="cd-timeline-content">
 				<h2>09:40 às 10:40</h2>
 				<p>CEOS e o Conselho de Administração</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
+				<a href="../Palestras/palestra-9401040.html" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -104,7 +109,6 @@
 			<div class="cd-timeline-content">
 				<h2>10:40 às 11:10</h2>
 				<p>COFFEE BREAK E NETWORK</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -117,7 +121,7 @@
 			<div class="cd-timeline-content">
 				<h2>11:10 às 11:45</h2>
 				<p>PALESTRA - "O Conselho de Administração e RH Estratégico, atual!"</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
+				<a href="../Palestras/palestra-11101145.html" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -131,7 +135,7 @@
 				<h2>11:45 às 12:45</h2>
 				<p>PAINEL DEBATES</p>
 				<p>"RH Estratégico como apoio ao Conselho de Administração e ao Comitê Pessoas"</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
+				<a href="../Palestras/palestra-painelDebates2.html" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -144,16 +148,10 @@
 			<div class="cd-timeline-content">
 				<h2>12:45 às 13:45</h2>
 				<p>ALMOÇO</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 		
-		<div class="cd-timeline-block">			
-			<div id="aberturas" class="cd-timeline-content">
-				<h2>ABERTURA DA TARDE</h2>				
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
 		
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
@@ -162,8 +160,8 @@
 
 			<div class="cd-timeline-content">
 				<h2>14:00 às 14:40</h2>
-				<p>PALESTRA - "IBGC – Instituto Brasileiro de Governança Corporativa - As melhores práticas para Conselhos de Administração"</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
+				<p>PALESTRA - "As melhores práticas para Conselhos de Administração"</p>
+				<a href="../Palestras/palestra-14001440.html" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -175,9 +173,8 @@
 
 			<div class="cd-timeline-content">
 				<h2>14:40 às 15:30</h2>
-				<p>TALK SHOW</p>
-				<a href="#1" class="cd-read-more">Visualizar
-					<img class="seta" src="../img/img-timeline/0323-circle-right.svg" alt="Picture">
+				<p>TALK SHOW - O Conselho de Administração e o cenário atual</p>
+				<a href="../Palestras/palestra-14401530.html" class="cd-read-more">Visualizar					
 				</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
@@ -191,7 +188,6 @@
 			<div class="cd-timeline-content">
 				<h2>15:30 às 16:00</h2>
 				<p>COFFEE BREAK</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
@@ -204,7 +200,7 @@
 			<div class="cd-timeline-content">
 				<h2>16:00 às 17:00</h2>
 				<p>PALESTRA - "Tendências macroeconômicas e o cenário atual interfronteiras"</p>
-				<a href="#0" class="cd-read-more">Visualizar</a>
+				<a href="../Palestras/palestra-16001700.html" class="cd-read-more">Visualizar</a>
 				<span class="cd-date">05 Ago</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->

@@ -17,6 +17,21 @@ h1.nomePalestrante {
 h2.funcaoPalestrante {
     margin-left: 15px;
 }
+h1.contato {
+    font-size: x-large;
+}
+h2.contato {
+    color: #1e4485;
+    font-size: initial;
+}
+p.endereco {
+    text-align: -webkit-center;
+    margin-top: 10px;
+}
+p.contato {
+    text-align: -webkit-left;
+    margin-top: 10px;
+}
 #AASPA-Palestra
 {
     background-image: url('../img/fundo-aapsa.png');
@@ -24,6 +39,13 @@ h2.funcaoPalestrante {
     height: 150px;
     vertical-align: baseline;
     position: relative;
+}
+div#AASPA-Contato {
+    text-align: -webkit-center;
+    /* margin-top: 10px; */
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: white;
 }
 .tblPalestrante {
     vertical-align: -webkit-baseline-middle;

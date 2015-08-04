@@ -36,6 +36,9 @@ var app = {
         app.receivedEvent('deviceready');
         window.location = 'aapsa-apresentacao.html';
     },
+    openNativeAppWindow: function(data) {
+        window.open(data, '_system');
+    },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);

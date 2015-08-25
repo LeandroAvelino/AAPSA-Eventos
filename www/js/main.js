@@ -30,7 +30,7 @@ jQuery(document).ready(function ($) {
 		});
 	}
 
-	function menu() {
-	    alert('sadsadsa');
+	function goBack() {
+	    window.history.back();
 	}
 });

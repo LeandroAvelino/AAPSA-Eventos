@@ -97,7 +97,7 @@ header h1 {
   }
 }
 
-#aberturas:before {
+.aberturas:before {
     display:none;
 }
 

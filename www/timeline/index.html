@@ -1,217 +1,276 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="../css/style.css"> <!-- Resource style -->
-	<script src="../js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Resource style -->
+    <script src="../js/modernizr.js"></script>
+    <!-- Modernizr -->
     <script>
         function mostra_menu() {
             $(".menu-anchor").click();
         }
     </script>
-	<title>Responsive Vertical Timeline</title>
+    <title>Responsive Vertical Timeline</title>
 </head>
 <body>
-	<header>
+    <header>
         <span class="menu-anchor"></span>
-		<h1 onclick="javascript: mostra_menu();" >Agenda do Evento</h1>
-        <a href="../patrocinadores-evento.html" data-rel="back" class="ui-btn-right ui-btn ui-icon-info ui-btn-icon-notext ui-shadow ui-corner-all ui-nodisc-icon"  data-role="button" role="button">Back</a>
-	</header>
+        <h1 onclick="javascript: mostra_menu();">Agenda do Evento</h1>
+        <a href="../patrocinadores-evento.html" data-rel="back" class="ui-btn-right ui-btn ui-icon-info ui-btn-icon-notext ui-shadow ui-corner-all ui-nodisc-icon" data-role="button" role="button">Back</a>
+    </header>
     <menu>
-    <ul>
-        <li><a href="../aapsa-apresentacao.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
-        <li><a href="../patrocinadores-evento.html"><i class="fa fa-users"></i>&nbsp;Patrocinadores</a></li>
-        <li><a href="../Palestras/contato.html"><i class="fa fa-bookmark"></i>&nbsp;Contato</a></li>
-    </ul>
+        <ul>
+            <li><a href="../aapsa-apresentacao.html"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+            <li><a href="../patrocinadores-evento.html"><i class="fa fa-users"></i>&nbsp;Patrocinadores</a></li>
+            <li><a href="../Palestras/contato.html"><i class="fa fa-bookmark"></i>&nbsp;Contato</a></li>
+        </ul>
     </menu>
-	<section id="cd-timeline" class="cd-container">
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="../img/img-timeline/cd-icon-location.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
-			<div class="cd-timeline-content">
-				<h2>08:00 às 08:30</h2>
-				<p>Welcome Coffee e Credenciamento</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
-			<div class="cd-timeline-content">
-				<h2>08:30 às 08:45</h2>
-				<p>Abertura</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+    <section id="cd-timeline" class="cd-container">
 
         <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="../img/img-timeline/0081-alarm.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-img cd-picture">
+                <img src="../img/img-timeline/cd-icon-location.svg" alt="Picture">
+            </div>
+            <!-- cd-timeline-img -->
+            <div class="cd-timeline-content">
+                <h2>08:00 às 08:30</h2>
+                <p>Welcome Coffee e Credenciamento</p>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
 
-			<div class="cd-timeline-content">
-				<h2>08:45 às 09:25</h2>
-                <p>Palestra</p>
-				<p>As inovações e tendências tecnológicas e seus impactos na gestão de pessoas/RH</p>
-				<a href="../Palestras/palestra-1.html" class="cd-read-more">Visualizar</a>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
+            </div>
+            <!-- cd-timeline-img -->
+            <div class="cd-timeline-content">
+                <h2>08:30 às 08:45</h2>
+                <p>Abertura</p>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
 
-	    <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="../img/img-timeline/0081-alarm.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="../img/img-timeline/0081-alarm.svg" alt="Movie">
+            </div>
+            <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>09:25 às 10:05</h2>
-                <p>Palestra</p>
-				<p>As principais tendências e inovações na gestão de RH/Pessoas</p>
-				<a href="../Palestras/palestra-2.html" class="cd-read-more">Visualizar</a>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="../img/img-timeline/0163-mug.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>10:05 às 10:35</h2>
-				<p>Coffee break/ Networking</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-				<div class="cd-timeline-img cd-picture">
-					<img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
-				</div> <!-- cd-timeline-img -->
-
-				<div class="cd-timeline-content">
-					<h2>10:35 às 11:15</h2>
+            <div class="cd-timeline-content">
+                <a href="../Palestras/palestra-1.html">
+                    <h2>08:45 às 09:25</h2>
                     <p>Palestra</p>
-					<p>O RH como setor estratégico na gestão e solução de conflitos culturais nos processos de fusão e aquisições</p>
-					<a href="../Palestras/palestra-3.html" class="cd-read-more">Visualizar</a>
-				</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+                    <p>As inovações e tendências tecnológicas e seus impactos na gestão de pessoas/RH</p>
+                </a>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
 
         <div class="cd-timeline-block">
-			<div id="Div1" class="cd-timeline-content aberturas">
-				<h2>11:15 às 11:55</h2>
-				<p>Painel de Debates</p>
-                <p>As principais tendências e inovações na Gestão de Conflitos</p>         
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+            <div class="cd-timeline-img cd-picture">
+                <img src="../img/img-timeline/0081-alarm.svg" alt="Movie">
+            </div>
+            <!-- cd-timeline-img -->
 
-        <div class="cd-timeline-block">
-				<div class="cd-timeline-img cd-picture">
-					<img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
-				</div> <!-- cd-timeline-img -->
-
-				<div class="cd-timeline-content">
-					<h2>11:55 às 12:05</h2>
+            <div class="cd-timeline-content">
+                <a href="../Palestras/palestra-2.html">
+                    <h2>09:25 às 10:05</h2>
                     <p>Palestra</p>
-					<p>As principais tendências e inovações nos Exames de Diagnósticos e Check-up  de Executivos e Gestores de RH/Pessoas</p>
-					<a href="../Palestras/palestra-3.html" class="cd-read-more">Visualizar</a>
-				</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+                    <p>As principais tendências e inovações na gestão de RH/Pessoas</p>
+                </a>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="../img/img-timeline/0164-spoon-knife.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-			<div class="cd-timeline-content">
-				<h2>12:05 às 13:30</h2>
-				<p>Almoço</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+                <img src="../img/img-timeline/0163-mug.svg" alt="Location">
+            </div>
+            <!-- cd-timeline-img -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-content">
+                <h2>10:05 às 10:35</h2>
+                <p>Coffee break/ Networking</p>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
 
-			<div class="cd-timeline-content">
-				<h2>13:30 às 14:00</h2>
-                <p>Palestra</p>
-				<p>A Visão das Centrais Sindicais e dos Sindicatos sobre os Processos de Terceirização</p>
-				<!--a href="../Palestras/palestra-4.html" class="cd-read-more">Visualizar</!--a>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <a href="../Palestras/palestra-3.html">
+                    <h2>10:35 às 11:15</h2>
+                    <p>Palestra</p>
+                    <p>O RH como setor estratégico na gestão e solução de conflitos culturais nos processos de fusão e aquisições</p>
+                </a>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div id="Div1" class="cd-timeline-content aberturas">
+                <a href="../Palestras/palestra-painelDebates.html">
+                    <h2>11:15 às 11:55</h2>
+                    <p>Painel de Debates</p>
+                    <p>As principais tendências e inovações na Gestão de Conflitos</p>
+                </a>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <a href="../Palestras/palestra-4.html">
+                    <h2>11:55 às 12:05</h2>
+                    <p>Palestra</p>
+                    <p>As principais tendências e inovações nos Exames de Diagnósticos e Check-up  de Executivos e Gestores de RH/Pessoas</p>
+                </a>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location">
+                <img src="../img/img-timeline/0164-spoon-knife.svg" alt="Location">
+            </div>
+            <!-- cd-timeline-img -->
+            <div class="cd-timeline-content">
+                <h2>12:05 às 13:30</h2>
+                <p>Almoço</p>
+            </div>
+            <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <a href="../Palestras/palestra-5.html">
+                    <h2>13:30 às 14:00</h2>
+                    <p>Palestra</p>
+                    <p>O Futuro e as Dimensões da Diversidade nas organizações</p>
+                    <!--a href="../Palestras/palestra-4.html" class="cd-read-more">Visualizar</!--a>
 				<span class="cd-date"></span>
 			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+                </a>
+            </div>
+            <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                    <img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
+                </div>
+                <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>14:00 às 14:45</h2>
-				<p>Painel de Debates</p>
-				<p>Diversidade: as diferenças que vem para ficar. Os atores trazem sua própria visão e acenam caminhos para que as situações de conflito passem a ser solução</p>
-				<a href="../Palestras/palestra-5.html" class="cd-read-more">Visualizar</a>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+                <div class="cd-timeline-content">
+                    <a href="../Palestras/palestra-painelDebates2.html">
+                        <h2>14:00 às 14:45</h2>
+                        <p>Painel de Debates</p>
+                        <p>Diversidade: as diferenças que vem para ficar. Os atores trazem sua própria visão e acenam caminhos para que as situações de conflito passem a ser solução</p>
+                    </a>
+                </div>
+                <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="../img/img-timeline/0163-mug.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-location">
+                    <img src="../img/img-timeline/0163-mug.svg" alt="Location">
+                </div>
+                <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>14:45 às 15:15</h2>
-				<p>Coffee break/ Networking</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+                <div class="cd-timeline-content">
+                    <h2>14:45 às 15:15</h2>
+                    <p>Coffee break/ Networking</p>
+                </div>
+                <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                    <img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
+                </div>
+                <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>15:15 às 16:00</h2>
-				<p>Painel de Debates</p>
-                <p>A Comunicação como ferramenta estratégica para engajar pessoas e solucionar conflitos</p>
-				<!--a href="../Palestras/palestra-16001700.html" class="cd-read-more">Visualizar</!--a>
+                <div class="cd-timeline-content">
+                    <a href="../Palestras/palestra-painelDebates3.html">
+                        <h2>15:15 às 16:00</h2>
+                        <p>Painel de Debates</p>
+                        <p>A Comunicação como ferramenta estratégica para engajar pessoas e solucionar conflitos</p>
+                        <!--a href="../Palestras/palestra-16001700.html" class="cd-read-more">Visualizar</!--a>
 				<span class="cd-date"></span>
 			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+                    </a>
+                </div>
+                <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-picture">
+                        <img src="../img/img-timeline/0081-alarm.svg" alt="Picture">
+                    </div>
+                    <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>16:00 às 16:50</h2>
-                <p>Palestra</p>
-				<p>O Employement Value Proposition como fonte de atratividade e retenção de talentos</p>
-				<a href="../Palestras/palestra-6.html" class="cd-read-more">Visualizar</a>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->		
-		
+                    <div class="cd-timeline-content">
+                        <a href="../Palestras/palestra-6.html">
+                            <h2>16:00 às 16:50</h2>
+                            <p>Palestra</p>
+                            <p>O Employement Value Proposition como fonte de atratividade e retenção de talentos</p>
+                        </a>
+                    </div>
+                    <!-- cd-timeline-content -->
+                </div>
+                <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="../img/img-timeline/hammer2.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>16:50 às 17:15</h2>
-				<p>Encerramento</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-	</section> <!-- cd-timeline -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="../js/main.js"></script> <!-- Resource jQuery -->
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-movie">
+                        <img src="../img/img-timeline/hammer2.svg" alt="Movie">
+                    </div>
+                    <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <h2>16:50 às 17:15</h2>
+                        <p>Encerramento</p>
+                    </div>
+                    <!-- cd-timeline-content -->
+                </div>
+                <!-- cd-timeline-block -->
+    </section>
+    <!-- cd-timeline -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Resource jQuery -->
 </body>
 </html>
